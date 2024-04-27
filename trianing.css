@@ -1,0 +1,59 @@
+body{
+    height: 56em;
+    width: auto;
+}
+*{
+    margin: 0;
+}
+#red{
+    /* background-color: RED; */
+    width:85%;
+    margin-top: 3em;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.karta{
+    background-color: #fbc4af1e;
+    width: 13em;
+    height: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid #fbc4afba;
+    border-radius: 20px;
+    margin-left: 6px;
+}
+.internship{
+    position: relative;
+    top: -.5em;
+    display: flex;
+    padding-left: 1em;
+}
+.karta:hover{
+    background-color: #fbc4af;
+}
+.kartfoto{
+    width: 13em;
+    border-radius: 0;
+    height: 9em;
+    border-radius: 20px 20px 0 0;
+    margin-right: 0;
+}
+span{
+    color: rgb(61, 61, 61);
+    font-size: 14px;
+}
+p{
+    font-size: 19px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
